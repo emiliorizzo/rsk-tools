@@ -1,0 +1,16 @@
+{
+  "name": "rsk-tools",
+  "version": "0.0.1",
+  "description": "rsk tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-util": "^6.2.0",
+    "nod3": "git+https://github.com/rsksmart/nod3.git",
+    "rsk-utils": "git+https://github.com/rsksmart/rsk-utils.git"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+/config.json
+.vscode
+.node-xmlhttprequest-*
+src/tmp
+tmp
+coverage
+.nyc_output
+address.json
+addresses.json
+

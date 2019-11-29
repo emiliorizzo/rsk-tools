@@ -15,7 +15,8 @@ async function sendTx (tx) {
     let { privKey } = sender
     if (!privKey) throw new Error(`Missing sender privKey`)
     const { hash, nonce } = await sendTransaction(tx, privKey)
-    console.log(`Tx hash: ${hash}, nonce: ${parseInt(nonce)}`)
+    console.log(`Tx hash: ${hash}`)
+    console.log(`${JSON.stringify(tx, null, 2)}`)
   } catch (err) {
     console.error(err)
     process.exit(9)
